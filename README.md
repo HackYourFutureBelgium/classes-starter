@@ -1,42 +1,65 @@
-> ...
+# Reverse-Engineer pomofocus.io
 
-## Getting Started
+This is a javascript project to build a customizable pomodoro timer.
+This project has been developed using the _development strategy_ concept with one branch per step.
+It is a way to practice the concept of asynchronous Programming in javascript.
 
-This repository comes with some nice extras like testing, documentation and CI, but in it's heart it's just an HTML/CSS/JS website boilerplate.
+## The contents
 
-### Development
+- [General info](#general-info)
+- [Project image](#project-image)
+- [User image](#user-flow)
+- [Technical equipment](#technical-equipment)
+- [Setup](#setup)
+- [Features](#features)
+- [Inspiration](#inspiration)
 
-To run this project locally you will need to open `index.html` in your browser using a local server. _LiveServer_, `http-server`, `study-lenses`, or any other local static server will work.
+## General info
 
-### Deployment
+- This project is a simple way to practice asynchronous Programming in using `github` to push your work when your collebrating with others IT's, `html`, `css` and `javascript`.
+- The purpose of using this keyword is be familiar with asynchronous Programming via using classes and functions like `SetTimeout` and `SetInterval` .
 
-Push your changes, turn on GitHub pages, that's all!
+> This project use this [template](https://github.com/HackYourFutureBelgium/classes-starter)
 
-When your project is deployed to GitHub pages there will be buttons rendered at the top of your page to validate your HTML, CSS, accessibility and spelling, plus a link back to the project repository.
+## Project image
 
-### Installing Dependencies
+![Example screenshot](public/assets/images/wireframe-pomofocus.png)
 
-There are no dependencies needed to run the website, everything is prepared to work with vanilla JavaScript. However, if you want to run tests or if you want to generate documentation for your project you will need to install the development dependencies:
+---
 
-- `npm install`
+## User Flow
 
-### Documentation
+![User flow](public/assets/images/User-flow.svg)
 
-To document your project you will need to write a JSDoc comment for each function in the `/handlers` and `/app/todos.js`. You will also want to add an entry to the JSDoc in `/data.js` for each property you store in the object.
+---
 
-The JSDoc comments you write in the `/src` folder will be used to re-write the `DOCS.md` file each time you run `npm run document` from the root of your project.
+## Technical equipment
 
-### Testing
+- HTML5
+- CSS3
+- Javascript
+- Github
 
-After installing the dev dependencies you can start writing and running tests for your .js files. Careful! In this project starter you can only test code that does not interact with the DOM, so only the `src/app/todos.js` functions will be testable (`view` methods will be tested in Node.js using `jsdom`). There are two options for running tests:
+## Setup
 
-- _Individually_: You can run the tests in a single `.spec.js` using the VSCode debugger. Open the spec file you want to run, open the debugger pane, select the "current .spec.js file" option, then start debugging!
-- _All at Once_: You can also run every `.spec.js` in the `/src` directory at the same time using `npm run test`. When you run the `npm run test` command all test results will be logged to the console, and a report file will be generated next to each spec file. These report files will be helpful when reviewing PRs to the `main`/`master` branch.
+There are several ways to run this run this project. one of them is to install Live Server extension in VS Code.
 
-### Continuous Integration
+## Features
 
-This repository comes with a GitHub Action to re-build the documentation and run all the tests whenever you push to `master`/`main`, and each time you open a PR to `master`/`main`. You don't need to do anything, it works!
+List of features :
 
-Having this CI action means that your master branch will always have the most up-to-date documentation, and that you can easily check test results when reviewing Pull Requests.
+- Responsive design that works with desktop and mobile
+- Applying Incremental Development
+- Encapsulation
+- Color transition to switch moods between work time and rest time
+- Audio notification at the end of a timer period
 
-> ...
+To-do list:
+
+- Add a color transition to switch moods between work time and rest time, to admire the users
+- Add functionality to Customize timer intervals to suit client preference
+- Improve the performance
+
+## Inspiration
+
+Project inspired by pomofocus.io
