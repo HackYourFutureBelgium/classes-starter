@@ -6,27 +6,23 @@ A collection of user stories you can choose from. Stories inside of each priorit
 
 > these are necessary for basic usability
 
-- [ ] A user can create a new empty list with any title
-  - _acceptance criteria ..._
-- [ ] A user can remove any list from the manager
-  - _acceptance criteria ..._
-- [ ] A user can add items to each list instance
-  - _acceptance criteria ..._
-- [ ] A user can remove items from each list instance
-  - _acceptance criteria ..._
-- [ ] A user can update items in each list instance
-  - _acceptance criteria ..._
+- As a user I want to be able to add new to do's to the list.
+  - _when a user type in the input text box and press enter key the text will be added to the list_
+- As a user I want to be able to delete existing to do's from the list.
+  - _when a user click on the trash icon specific todo list will be deleted from the list_
+- As a user I want to be able to mark a specific todo as completed and vice versa.
+  - _when a user click on a specific todo a new style will be added to that todo list_
 
 ## Should-Haves
 
 > these will complete the user experience, but are not necessary
 
-- [ ] A user can ...
-  - _acceptance criteria ..._
+- As a user I want to be able to show and hide the input text box.
+  - _when the user click on the plus icon the text box will be shown or hidden_
 
 ## Could-Haves
 
 > would be really cool ... if there's time
 
-- [ ] A user can ...
-  - _acceptance criteria ..._
+- As a user i want to be able to edit a specific todo list.
+  - _the user can edit a specific todo list via double clicking on that todo list_.
