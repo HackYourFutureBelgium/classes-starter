@@ -1,57 +1,47 @@
-# Todo List: Practical JavaScript
+# Reverse-Engineer pomofocus.io
 
-A refactor of the Practical JavaScript Todo List
-
----
-
-## Data
-
-> describe the data used in your project.
->
-> - what properties?
-> - what types?
-> - what are array entries like?
-
----
-
-## User Story Dependencies
-
-![Story Dependency Diagram]()
+- Pomofocus is a customizable pomodoro timer that developed using javascript on applying asynchronous Programming.
+- The aim of this app is to help you focus on any task you are working on, such as study, writing, or coding.
 
 ---
 
 ## WIREFRAME
 
-![wireframe]()
+![wireframe](../public/assets/images/wireframe-pomofocus.png)
 
 ---
 
 ## 0.Setup
 
-- Start a repo.
-- Study (and possibly modify) the backlog
-- Design a simple wireframe to set guidelines for UI/UX design.
-- Devise a development strategy.
+**A User can see my initial repository and live demo**
+
+### Repository
+
+- Created a new repository from this [template](https://github.com/HackYourFutureBelgium/classes-starter)
+- Clone the repository
+- Add a wireframe
+- Start the development strategy
+- Write initial, basic README
+- Push the changes to GitHub
 
 ---
 
-## 1. Initialize Application
+## 1. User Story: Add task list
 
-**As a user I want to see the home page when I load the site**
+- _As user I have initial page open I should be able to type into the input field and add a new task to the list to work on today_.
 
-- _acceptance criteria_
-- _acceptance criteria_
-- ...
+- Add complete class
 
-### REPO
+---
 
-- This user story is developed on branch `_`.
-- This branch is merged to `master` branch after completion.
+## 2. User Story: Delete the listed task
 
-### Task A
+- _As a user I want to be able to delete listed task_
 
-### Task B
+---
 
-### Task ...
+## 3. User Story: Start and stop timers
+
+- _As a user I want to be able to start timer and focus on the task for some minutes then take a break for some minutes when the alarm ring_
 
 ---
