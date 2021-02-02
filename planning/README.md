@@ -85,11 +85,12 @@ Answering these questions is a way to break down complex user stories and to det
 Handlers are the glue of your user stories. Understanding your answers to these questions will not only help you decide which tasks to develop, but can be used to plan the details of the user story's handler:
 
 1. **User Story Objectives**
-   1. _... ?_
+   1. _What should change in state after this user story is complete?_
+   2. _How will the UI represent these state changes for the user?_
 2. **User Flow ?**
-   1. _... ?_
+   ![User flow](../public/assets/images/User-flow.svg)
 3. **Wireframes ?**
-   1. _... ?_
+   ![wireframe](../public/assets/images/wireframe-pomofocus.png)
 
 - [Lars Bilde](https://www.youtube.com/watch?v=gZ4uLafsxAk)
 - [Christiaan Verwijs](https://medium.com/the-liberators/10-powerful-strategies-for-breaking-down-user-stories-in-scrum-with-cheatsheet-2cd9aae7d0eb)
